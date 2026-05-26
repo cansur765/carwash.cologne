@@ -14,8 +14,22 @@
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-blue-600/20 blur-[180px] rounded-full"></div>
 
     <!-- Navbar -->
-    <nav class="relative z-50 flex items-center justify-between px-8 py-6 border-b border-white/10 backdrop-blur-xl">
-
+<nav class="
+    fixed
+    top-0
+    left-0
+    w-full
+    z-50
+    flex
+    items-center
+    justify-between
+    px-8
+    py-6
+    bg-black/70
+    backdrop-blur-xl
+    border-b
+    border-white/10
+">
         <h1 class="text-2xl font-bold tracking-wide">
             Carwash Cologne
         </h1>
@@ -303,7 +317,7 @@
 
                 </ul>
 
-                <a href="#kontakt" class="
+                <a href="https://wa.me/491785729707" class="
                     block
                     text-center
                     bg-blue-600
@@ -637,6 +651,74 @@
 
 </section>
 
+<!-- Social Media -->
+<section class="relative z-10 py-20 px-6">
+
+    <div class="max-w-5xl mx-auto text-center">
+
+        <p class="uppercase tracking-[6px] text-blue-400 mb-4 text-sm">
+            Social Media
+        </p>
+
+        <h2 class="text-5xl font-black mb-6">
+            Folge uns online
+        </h2>
+
+        <p class="text-gray-400 text-lg mb-12">
+            Vorher/Nachher Ergebnisse, Reels und echte Kundenfahrzeuge.
+        </p>
+
+        <div class="flex justify-center gap-6 flex-wrap">
+
+            <!-- Instagram -->
+            <a 
+                href="https://instagram.com/carwash.cologne"
+                target="_blank"
+                class="
+                    bg-white/5
+                    border
+                    border-white/10
+                    hover:border-pink-500/50
+                    hover:bg-pink-500/10
+                    transition
+                    px-8
+                    py-5
+                    rounded-2xl
+                    text-lg
+                    font-semibold
+                    backdrop-blur-xl
+                "
+            >
+                Instagram
+            </a>
+
+            <!-- TikTok -->
+            <a 
+                href="https://tiktok.com/@carwash.cologne"
+                target="_blank"
+                class="
+                    bg-white/5
+                    border
+                    border-white/10
+                    hover:border-cyan-400/50
+                    hover:bg-cyan-400/10
+                    transition
+                    px-8
+                    py-5
+                    rounded-2xl
+                    text-lg
+                    font-semibold
+                    backdrop-blur-xl
+                "
+            >
+                TikTok
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
 
 </body>
 </html>
