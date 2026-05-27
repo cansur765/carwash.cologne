@@ -431,8 +431,104 @@
                 ">
                     Jetzt buchen
                 </a>
+            
+            </div>
+
+        </div>
+        <!-- Eigenes Paket -->
+        <div class="
+            bg-white/5
+            border border-blue-500/30
+            rounded-[35px]
+            p-10
+            backdrop-blur-xl
+        ">
+
+            <p class="uppercase tracking-[4px] text-blue-400 mb-4 text-sm">
+                Individuell
+            </p>
+
+            <h3 class="text-4xl font-bold mb-6">
+                Eigenes Paket
+            </h3>
+
+            <!-- Auswahl -->
+            <div class="space-y-5 mb-10">
+
+                <!-- Außenwäsche -->
+                <label class="flex items-center justify-between">
+
+                    <span>
+                        Außenwäsche (+49€)
+                    </span>
+
+                    <input
+                        type="checkbox"
+                        class="service-checkbox w-5 h-5"
+                        data-price="49"
+                    >
+
+                </label>
+
+                <!-- Innenreinigung -->
+                <label class="flex items-center justify-between">
+
+                    <span>
+                        Innenreinigung (+39€)
+                    </span>
+
+                    <input
+                        type="checkbox"
+                        class="service-checkbox w-5 h-5"
+                        data-price="39"
+                    >
+
+                </label>
+
+                <!-- Lederpflege -->
+                <label class="flex items-center justify-between">
+
+                    <span>
+                        Lederpflege (+29€)
+                    </span>
+
+                    <input
+                        type="checkbox"
+                        class="service-checkbox w-5 h-5"
+                        data-price="29"
+                    >
+
+                </label>
 
             </div>
+
+            <!-- Gesamtpreis -->
+            <div class="mb-8">
+
+                <p class="text-gray-400 mb-2">
+                    Gesamtpreis
+                </p>
+
+                <h4 id="total-price" class="text-5xl font-black">
+                    0€
+                </h4>
+
+            </div>
+
+            <!-- Button -->
+            <a href="#kontakt" class="
+                block
+                text-center
+                bg-blue-600
+                hover:bg-blue-700
+                transition
+                py-4
+                rounded-2xl
+                font-semibold
+                text-lg
+            ">
+                Paket anfragen
+            </a>
 
         </div>
 
@@ -719,6 +815,110 @@
     </div>
 
 </section>
+
+<script>
+
+    const checkboxes = document.querySelectorAll('.service-checkbox');
+    const totalPrice = document.getElementById('total-price');
+
+    function updatePrice() {
+
+        let total = 0;
+
+        checkboxes.forEach((checkbox) => {
+
+            if (checkbox.checked) {
+                total += parseInt(checkbox.dataset.price);
+            }
+
+        });
+
+        totalPrice.innerText = total + '€';
+
+    }
+
+    checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener('change', updatePrice);
+    });
+
+</script>
+
+<script>
+
+    const checkboxes = document.querySelectorAll('.service-checkbox');
+    const totalPrice = document.getElementById('total-price');
+
+    function updatePrice() {
+
+        let total = 0;
+
+        checkboxes.forEach((checkbox) => {
+
+            if (checkbox.checked) {
+                total += parseInt(checkbox.dataset.price);
+            }
+
+        });
+
+        totalPrice.innerText = total + '€';
+
+    }
+
+    checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener('change', updatePrice);
+    });
+
+</script>
+
+<!-- Calendly -->
+<section id="kontakt" class="relative z-10 py-32 px-6">
+
+    <div class="max-w-6xl mx-auto">
+
+        <!-- Titel -->
+        <div class="text-center mb-20">
+
+            <p class="uppercase tracking-[6px] text-blue-400 mb-4 text-sm">
+                Termin buchen
+            </p>
+
+            <h2 class="text-5xl md:text-6xl font-black mb-6">
+                Buche deinen Termin
+            </h2>
+
+            <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+                Wähle einfach deinen gewünschten Termin direkt online aus.
+            </p>
+
+        </div>
+
+        <!-- Calendly Widget -->
+        <div class="
+            rounded-[40px]
+            overflow-hidden
+            border
+            border-white/10
+            bg-white/5
+            backdrop-blur-xl
+        ">
+
+            <div
+                class="calendly-inline-widget"
+                data-url="https://calendly.com/carwashcologne1"
+                style="min-width:320px;height:700px;"
+            ></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script
+    type="text/javascript"
+    src="https://assets.calendly.com/assets/external/widget.js"
+    async
+></script>
 
 </body>
 </html>
