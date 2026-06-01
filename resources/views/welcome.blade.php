@@ -54,7 +54,7 @@
 
         </div>
 
-        <a href="https://wa.me/491785729707" target="_blank" class="
+        <a href="https://wa.me/491785729707?text=Hallo%20Carwash%20Cologne,%20ich%20interessiere%20mich%20für%20eine%20Fahrzeugreinigung." target="_blank" class="
             bg-blue-600
             hover:bg-blue-700
             transition
@@ -97,8 +97,9 @@
                 max-w-3xl
                 mx-auto
             ">
-                Professionelle Fahrzeugpflege direkt bei Ihnen vor Ort.
-                Schnell, hochwertig und flexibel im gesamten Kölner Norden.
+                Professionelle Innen- und Außenreinigung direkt bei Ihnen vor Ort.
+                
+                Bereits ab 25€ zuverlässig, gründlich und flexibel in Köln und Umgebung.
             </p>
 
             <div class="flex justify-center gap-6 flex-wrap">
@@ -173,7 +174,8 @@
                 </h3>
 
                 <p class="text-gray-400 leading-relaxed">
-                    Schonende Handwäsche für maximalen Glanz und Lackschutz.
+                    Gründliche Handwäsche inklusive Reinigung der Karosserie.
+                    Ab 25€
                 </p>
 
             </div>
@@ -190,7 +192,8 @@
                 </h3>
 
                 <p class="text-gray-400 leading-relaxed">
-                    Tiefenreinigung von Sitzen, Teppichen und Cockpit.
+                    Innenraum, Sitze, Fußmatten, Cockpit und Kofferraum werden gründlich gereinigt.
+                    Ab 35€
                 </p>
 
             </div>
@@ -203,11 +206,12 @@
                 </div>
 
                 <h3 class="text-2xl font-bold mb-4">
-                    Politur
+                    Komplettreinigung
                 </h3>
 
                 <p class="text-gray-400 leading-relaxed">
-                    Hochglanzpolitur für ein perfektes Finish Ihres Fahrzeugs.
+                    Innen- und Außenreinigung für ein rundum sauberes Fahrzeug.
+                    Ab 50€
                 </p>
 
             </div>
@@ -224,7 +228,9 @@
                 </h3>
 
                 <p class="text-gray-400 leading-relaxed">
-                    Entfernung von Bremsstaub und hartnäckigem Schmutz.
+                    Intensive Reinigung der Felgen für einen sauberen und gepflegten Look.
+
+                    Ab 10€
                 </p>
 
             </div>
@@ -306,14 +312,14 @@
                 </h3>
 
                 <div class="text-6xl font-black mb-10">
-                    49€
+                    25€
                 </div>
 
                 <ul class="space-y-5 text-gray-300 mb-10 text-lg">
 
                     <li>✓ Außenwäsche</li>
-                    <li>✓ Felgenreinigung</li>
-                    <li>✓ Scheibenreinigung</li>
+                    <li>✓ Handwäsche</li>
+                    <li>✓ Sauberes Finish</li>
 
                 </ul>
 
@@ -362,15 +368,16 @@
                 </h3>
 
                 <div class="text-7xl font-black mb-10">
-                    89€
+                    35€
                 </div>
 
                 <ul class="space-y-5 text-white/90 mb-12 text-xl">
 
-                    <li>✓ Außenwäsche</li>
-                    <li>✓ Innenreinigung</li>
-                    <li>✓ Felgenreinigung</li>
-                    <li>✓ Cockpitpflege</li>
+                    
+                <li>✓ Innenreinigung</li>
+                    <li>✓ Sitze</li>
+                    <li>✓ Cockpit</li>
+                    <li>✓ Fußmatten</li>                    <li>✓ Felgenreinigung</li>
 
                 </ul>
 
@@ -406,15 +413,15 @@
                 </h3>
 
                 <div class="text-6xl font-black mb-10">
-                    149€
+                    55€
                 </div>
 
                 <ul class="space-y-5 text-gray-300 mb-10 text-lg">
 
-                    <li>✓ Komplettaufbereitung</li>
-                    <li>✓ Lederpflege</li>
-                    <li>✓ Politur</li>
-                    <li>✓ Premium Finish</li>
+                    <li>✓ Innenreinigung</li>
+                    <li>✓ Außenwäsche</li>
+                    <li>✓ Felgenreinigung</li>
+                    <li>✓ Komplettservice</li>
 
                 </ul>
 
@@ -459,13 +466,13 @@
                 <label class="flex items-center justify-between">
 
                     <span>
-                        Außenwäsche (+49€)
+                        Außenwäsche (+25€)
                     </span>
 
                     <input
                         type="checkbox"
                         class="service-checkbox w-5 h-5"
-                        data-price="49"
+                        data-price="25"
                     >
 
                 </label>
@@ -474,13 +481,13 @@
                 <label class="flex items-center justify-between">
 
                     <span>
-                        Innenreinigung (+39€)
+                        Innenreinigung (+35€)
                     </span>
 
                     <input
                         type="checkbox"
                         class="service-checkbox w-5 h-5"
-                        data-price="39"
+                        data-price="35"
                     >
 
                 </label>
@@ -489,13 +496,13 @@
                 <label class="flex items-center justify-between">
 
                     <span>
-                        Lederpflege (+29€)
+                        Felgenreinigung (+10€)
                     </span>
 
                     <input
                         type="checkbox"
                         class="service-checkbox w-5 h-5"
-                        data-price="29"
+                        data-price="10"
                     >
 
                 </label>
