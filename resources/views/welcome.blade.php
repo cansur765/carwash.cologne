@@ -312,7 +312,7 @@
                 </h3>
 
                 <div class="text-6xl font-black mb-10">
-                    25€
+                    30€
                 </div>
 
                 <ul class="space-y-5 text-gray-300 mb-10 text-lg">
@@ -320,6 +320,7 @@
                     <li>✓ Außenwäsche</li>
                     <li>✓ Handwäsche</li>
                     <li>✓ Sauberes Finish</li>
+                    <li>✓ Felgenreinigung</li>
 
                 </ul>
 
@@ -368,16 +369,16 @@
                 </h3>
 
                 <div class="text-7xl font-black mb-10">
-                    35€
+                    40€
                 </div>
 
                 <ul class="space-y-5 text-white/90 mb-12 text-xl">
 
-                    
-                <li>✓ Innenreinigung</li>
+                <li>✓ Inkl. Basic Paket Pflege</li>  
+                <li>+ Komplette Innenreinigung</li>
                     <li>✓ Sitze</li>
                     <li>✓ Cockpit</li>
-                    <li>✓ Fußmatten</li>                    <li>✓ Felgenreinigung</li>
+                    <li>✓ Fußmatten</li>             
 
                 </ul>
 
@@ -413,14 +414,14 @@
                 </h3>
 
                 <div class="text-6xl font-black mb-10">
-                    55€
+                    60€
                 </div>
 
                 <ul class="space-y-5 text-gray-300 mb-10 text-lg">
 
-                    <li>✓ Innenreinigung</li>
-                    <li>✓ Außenwäsche</li>
-                    <li>✓ Felgenreinigung</li>
+                    <li>✓ Inkl. Premium Paket Pflege</li>
+                    <li>+ Komplettes Felgen und Rad Detailing</li>
+                    <li>✓ Motor innenraum Handpflege</li>
                     <li>✓ Komplettservice</li>
 
                 </ul>
