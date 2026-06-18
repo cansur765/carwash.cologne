@@ -193,7 +193,7 @@
 
                 <p class="text-gray-400 leading-relaxed">
                     Innenraum, Sitze, Fußmatten, Cockpit und Kofferraum werden gründlich gereinigt.
-                    Ab 35€
+                    Ab 30€
                 </p>
 
             </div>
